@@ -34,7 +34,7 @@
 
                     <tr>
                         <td>Preferential:</td>
-                        <td><g:checkBox name="preferential" value="${false}" /></td>
+                        <td><g:select name="preferredSector" from="${User.constraints.preferential.inList}"/></td>
                     </tr>
                     <tr>
                         <td/>
