@@ -43,7 +43,7 @@
 		<g:message code="user.preferential.label" default="Preferential" />
 		
 	</label>
-	<g:checkBox name="preferential" value="${userInstance?.preferential}" />
+	<g:select name="preferential" from="${User.constraints.preferential.inList}"/>
 
 </div>
 

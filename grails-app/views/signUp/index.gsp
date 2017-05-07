@@ -34,7 +34,7 @@
 
                     <tr>
                         <td>Preferential:</td>
-                        <td><g:select name="preferredSector" from="${User.constraints.preferential.inList}"/></td>
+                        <td><g:select name="preferential" from="${User.constraints.preferential.inList}"/></td>
                     </tr>
                     <tr>
                         <td/>
